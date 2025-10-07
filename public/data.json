@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/174/174855.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 1,
+    "description": "Instagram is one of the world's most popular social media platforms for photo and video sharing. It allows users to visually share moments from their lives, featuring modern tools like Reels, Stories, and Live video. The platform is not only for staying connected with friends and family but also serves as a powerful medium for businesses and content creators. Users can discover new trends, follow their favorite creators, and engage with diverse communities globally. It’s an excellent space for expressing your creativity and sharing your experiences with the world, making it a central part of billions of people's daily routines.",
+    "size": 75,
+    "reviews": 32545678,
+    "ratingAvg": 4.1,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 7500000 },
+      { "name": "5 star", "count": 18045678 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/3046/3046128.png",
+    "title": "TikTok - Videos, Shop & LIVE",
+    "companyName": "TikTok Pte. Ltd.",
+    "id": 2,
+    "description": "TikTok is the world's leading platform for short, engaging mobile videos. Millions of people express their creativity here by sharing moments related to music, comedy, dance, and daily life. The powerful AI algorithm provides a personalized video feed for every user, guaranteeing hours of tailored entertainment. It is a global community where you can discover worldwide trends, participate in challenges, and find new content. Features like live streaming and in-app shopping have turned TikTok into not just an entertainment medium, but also a vibrant digital marketplace, constantly evolving and expanding its cultural reach.",
+    "size": 95,
+    "reviews": 55891234,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 4500000 },
+      { "name": "2 star", "count": 2800000 },
+      { "name": "3 star", "count": 4500000 },
+      { "name": "4 star", "count": 13000000 },
+      { "name": "5 star", "count": 31091234 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/733/733585.png",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 3,
+    "description": "WhatsApp is a free messaging and video calling app used by billions of people globally. It employs **end-to-end encryption** to ensure the security and privacy of your personal conversations. It is an ideal platform for all types of communication, including text messages, voice calls, video calls, and document sharing. Features such as group chats, status updates, and WhatsApp Business make it indispensable for both personal and professional communication. Its simple interface and cross-platform support ensure it is reliable and accessible to almost all smartphone users worldwide.",
+    "size": 35,
+    "reviews": 180123456,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 10500000 },
+      { "name": "2 star", "count": 7500000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 35000000 },
+      { "name": "5 star", "count": 115123456 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/733/733547.png",
+    "title": "Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 4,
+    "description": "Facebook Messenger provides users with a fast and dedicated way to communicate with their Facebook friends and contacts. It offers instant messaging, HD video and voice calls, group chats, and file sharing capabilities. Customizable themes, emojis, and reaction features make conversations more engaging. You can easily host large video meetings using the Messenger Rooms feature. It is a complete communication platform deeply integrated with the Facebook ecosystem, designed to provide users with a fast and secure communication experience across devices.",
+    "size": 55,
+    "reviews": 110987654,
+    "ratingAvg": 4.2,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 9000000 },
+      { "name": "2 star", "count": 6000000 },
+      { "name": "3 star", "count": 10000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 60987654 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/733/733637.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 5,
+    "description": "Snapchat is a visual messaging app known for its fun filters (Lenses), Stories, and the exchange of quick snaps (photos or short videos). The unique feature of this app is that your messages or snaps automatically disappear after viewing, creating a fleeting communication experience among users. The Discover feed offers content from popular media and creators, while the Snap Map feature lets you see your friends' locations. It is an extremely popular platform among the younger generation, emphasizing spontaneous and creative, short-form communication.",
+    "size": 60,
+    "reviews": 15234567,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 7434567 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/174/174872.png",
+    "title": "Spotify: Music and Podcasts",
+    "companyName": "Spotify AB",
+    "id": 6,
+    "description": "Spotify is one of the world's largest digital music, podcast, and video streaming services. With a vast library of millions of songs and thousands of podcasts, it offers music for every mood and situation. Users can create personalized playlists, discover new artists, and download their favorite tracks for offline listening. Its excellent algorithm introduces you to new music and podcasts that perfectly match your taste. Available in both free and premium versions, it is an essential app for music lovers looking for a comprehensive and personalized listening experience.",
+    "size": 30,
+    "reviews": 28901234,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1800000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 2500000 },
+      { "name": "4 star", "count": 6500000 },
+      { "name": "5 star", "count": 16901234 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111646.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 7,
+    "description": "Telegram is a cloud-based messaging application that emphasizes speed and security. It allows you to send messages, photos, videos, and files of any type quickly and securely. One of its main attractions is its robust group chat feature, which can accommodate hundreds of thousands of members, and public channels used for large-scale content distribution. The 'Secret Chat' feature, which includes end-to-end encryption and self-destructing messages, sets it apart from other messaging apps. It is fast, secure, and highly convenient for exchanging massive files.",
+    "size": 40,
+    "reviews": 12345678,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 3500000 },
+      { "name": "5 star", "count": 6645678 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "id": 8,
+    "description": "ChatGPT is a state-of-the-art language model developed by OpenAI, capable of engaging in natural, human-like conversations with users. This app can help you ask any question, write emails, debug code, generate summaries, and even compose creative stories. With advanced models like GPT-4, it possesses the ability to solve complex problems and perform deep analysis. It serves as a powerful personal assistant that can significantly enhance your productivity and learning process, marking a revolution in the world of artificial intelligence.",
+    "size": 15,
+    "reviews": 5123456,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 3423456 }
+    ]
+  },
+  {
+    "image": "https://example.com/playstore/app9_temu.png",
+    "title": "Temu: Shop Like a Billionaire",
+    "companyName": "Temu",
+    "id": 9,
+    "description": "Temu is a rapidly growing e-commerce platform that gained global popularity with the slogan, 'Shop Like a Billionaire.' It provides users with a massive variety of products at incredibly low prices, sourced directly from manufacturers. The platform offers a wide range of product categories, including apparel, electronics, home decor, and more. Temu heavily emphasizes discounts, flash deals, and free shipping. Its goal is to make shopping accessible and affordable for everyone, which has made it a hot favorite among online shoppers worldwide in the budget-conscious market.",
+    "size": 110,
+    "reviews": 18765432,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 1100000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 4500000 },
+      { "name": "5 star", "count": 11365432 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/733/733579.png",
+    "title": "X (Twitter)",
+    "companyName": "X Corp.",
+    "id": 10,
+    "description": "X, formerly known as Twitter, is a global micro-blogging and social networking platform where users share short messages called 'posts.' It is renowned for real-time news, current events, and expressing opinions on various subjects. You can quickly find out what is happening anywhere in the world. The app provides opportunities for direct conversation with followers, tracking trending topics, and participating in diverse political and social discussions. It is a central hub for fast-breaking news and information, utilized by everyone from everyday people to world leaders.",
+    "size": 80,
+    "reviews": 11500000,
+    "ratingAvg": 3.7,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2800000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 2200000 },
+      { "name": "5 star", "count": 3000000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111589.png",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 11,
+    "description": "Reddit refers to itself as the 'front page of the internet.' It is a massive forum-based platform made up of thousands of communities called 'subreddits.' These subreddits are dedicated to discussing a vast range of topics, including technology, sports, arts, news, and much more. Users can upload content (links, text posts, images), and other users determine its popularity through 'upvotes' or 'downvotes.' It's one of the best places to find in-depth and niche discussions. Through this platform, you can connect with globally interested people on virtually any subject.",
+    "size": 65,
+    "reviews": 6500000,
+    "ratingAvg": 4.6,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 350000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 4000000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111370.png",
+    "title": "Discord - Talk, Play, Hang Out",
+    "companyName": "Discord Inc.",
+    "id": 12,
+    "description": "Discord, originally built for gamers, is now used to create diverse communities of all types. It allows users to stay connected with friends through voice, video, and text chat. By creating private spaces called 'servers,' users can build communities based on specific interests. It is a multi-functional communication app featuring real-time voice chat, screen sharing, and customizable permissions. Whether for studying, working, or just hanging out, Discord is a powerful and flexible platform for modern communication and collaboration.",
+    "size": 85,
+    "reviews": 8800000,
+    "ratingAvg": 4.3,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 4800000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/174/174872.png",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 13,
+    "description": "Netflix is one of the world's largest subscription-based streaming services, offering thousands of movies, TV shows, documentaries, and its own productions ('Netflix Originals'). Users can watch content on-demand from any device. The app features personalized recommendations, the ability to create multiple profiles, and the option to download content for offline viewing. Through high-definition and 4K streaming, it provides viewers with a world-class entertainment experience, constantly refreshing its library with new and exciting titles.",
+    "size": 45,
+    "reviews": 12456789,
+    "ratingAvg": 3.9,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1800000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 2500000 },
+      { "name": "4 star", "count": 3500000 },
+      { "name": "5 star", "count": 3656789 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968850.png",
+    "title": "Google Pay: Save and Pay",
+    "companyName": "Google LLC",
+    "id": 14,
+    "description": "Google Pay is a digital wallet and online payment system developed by Google. Using this app, users can securely send money online, in-store, and to friends or family directly from their smartphone. It links credit cards, debit cards, and bank accounts to allow for fast and convenient transactions. Additionally, the app offers rewards, discounts, and promotions, making the shopping experience more economical for users. It is an essential app designed to make everyday financial transactions simple and secure across various platforms.",
+    "size": 60,
+    "reviews": 15000000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1700000 },
+      { "name": "4 star", "count": 3500000 },
+      { "name": "5 star", "count": 7500000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/906/906324.png",
+    "title": "ZOOM Cloud Meetings",
+    "companyName": "Zoom Video Communications, Inc.",
+    "id": 15,
+    "description": "Zoom Cloud Meetings is a premier video conferencing platform that is globally popular for both personal and professional use. It provides high-definition video and audio calling, screen sharing, webinars, and the ability to host virtual meetings for a large number of participants. It is an indispensable tool for remote communication and collaboration across all sectors, from educational institutions to corporate offices. Its reliability and user-friendly interface have established it as the gold standard for virtual meetings, especially in the era of remote work.",
+    "size": 40,
+    "reviews": 10987654,
+    "ratingAvg": 4.0,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 4487654 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888847.png",
+    "title": "Adobe Scan: PDF Scanner, OCR",
+    "companyName": "Adobe",
+    "id": 16,
+    "description": "Adobe Scan is a powerful mobile scanning application that transforms your phone into a portable scanner. It scans receipts, notes, documents, photos, and content from any whiteboard, converting them into high-quality PDF or JPEG files. Through **Optical Character Recognition (OCR)** technology, you can directly copy or edit the text from the scanned documents. Scanned files are saved to the Adobe Document Cloud, making it easy to access them from anywhere. It's a professional tool for digitizing physical documents with ease and accuracy.",
+    "size": 50,
+    "reviews": 2100000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 510000 },
+      { "name": "5 star", "count": 1400000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/684/684908.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 17,
+    "description": "Google Maps is the world's most trusted navigation app, helping you reach any destination. It provides turn-by-turn directions, real-time traffic updates, transit information, and accurate data for walking routes. Information, reviews, and photos about local businesses, restaurants, and landmarks are easily available. Features like satellite view, Street View, and offline maps make it indispensable for travel and daily commutes. It is designed to make your journey simple and stress-free, constantly updating to reflect the world in real-time.",
+    "size": 100,
+    "reviews": 190500000,
+    "ratingAvg": 4.1,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000000 },
+      { "name": "2 star", "count": 8000000 },
+      { "name": "3 star", "count": 17500000 },
+      { "name": "4 star", "count": 40000000 },
+      { "name": "5 star", "count": 110000000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1384/1384060.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 18,
+    "description": "YouTube is the world's largest platform for video streaming, with billions of hours of content watched daily. It hosts a vast variety of content including music videos, educational tutorials, vlogs, gaming, and real-time live streaming. Users can create their own channels, upload content, and subscribe to their favorite creators. Personalized recommendations and the ability to download videos for offline viewing make it a central hub for entertainment and learning, democratizing video content creation and consumption globally.",
+    "size": 90,
+    "reviews": 250123456,
+    "ratingAvg": 4.3,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000000 },
+      { "name": "2 star", "count": 10000000 },
+      { "name": "3 star", "count": 25000000 },
+      { "name": "4 star", "count": 60000000 },
+      { "name": "5 star", "count": 140123456 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/3002/3002227.png",
+    "title": "Gboard - the Google Keyboard",
+    "companyName": "Google LLC",
+    "id": 19,
+    "description": "Gboard is a smart and fast keyboard application developed by Google. Its core features include Glide Typing (swiping), Voice Typing, and in-app Google Search. Users can search for information, share emojis, GIFs, and stickers directly from the keyboard. It supports multiple languages and uses advanced artificial intelligence for automatic correction and predictive typing, which makes the typing experience much easier and more efficient. It is a top choice for smooth and functional text input on mobile devices.",
+    "size": 45,
+    "reviews": 12500000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 3500000 },
+      { "name": "5 star", "count": 6500000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/270/270798.png",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "id": 20,
+    "description": "Google Drive is a cloud-based file storage and synchronization service provided by Google. It allows users to store their files, photos, and documents online, access them from other devices, and easily share them with others. Its seamless integration with Google Docs, Sheets, and Slides simplifies teamwork and collaboration. It is an extremely reliable and popular platform for keeping all your important files secure and accessible from anywhere, offering a generous amount of free storage and expandable plans for greater data management needs.",
+    "size": 55,
+    "reviews": 11500000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 6400000 }
+    ]
+  }
+]
