@@ -79,9 +79,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700 transition"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M3 2l18 10-18 10V2z" />
-            </svg>
+            <img src="https://www.citypng.com/public/uploads/preview/hd-google-play-playstore-logo-symbol-png-701751694777134cuw3jc7voo.png?v=2025081705" className="w-6 h-6" alt="" />
             Play Store
           </a>
           <a
@@ -90,9 +88,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-black text-white px-4 py-2 rounded hover:bg-gray-900 transition"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M16.365 1c-.832 0-2.16.96-2.88.96-.32 0-1.68-1.06-3.12-1.06-1.62 0-3 1.88-3 5.24 0 3.52 1.86 7.36 4.24 7.36.92 0 2.04-.82 3.42-.82 1.38 0 2.34.82 3.42.82 2.42 0 4.22-3.88 4.22-7.36C20.605 2.88 18.985 1 16.365 1zM13.31 10.25c-.9 0-2.48 1.64-4.08 1.64-.38 0-.92-.16-1.38-.5-.34-.26-.62-.48-.94-.74-.02-.02 0-.06.02-.04C7 11.02 10 7.94 10 5.64c0-.1 0-.18.02-.26.2.04.48.08.76.08 1.48 0 2.9-1.4 3.44-1.4.1 0 .18 0 .26.02-.02.2-.08.46-.08.76 0 2.3 3 5.38 3.02 5.6 0 .04 0 .06-.02.08-.32.24-.6.48-.94.74-.46.34-1 .5-1.38.5z" />
-            </svg>
+            <img  className="w-6 h-6" src="https://p1.hiclipart.com/preview/359/223/826/apple-logo-app-store-iphone-ios-11-ios-7-itunes-store-blue-turquoise-png-clipart.jpg" alt="" />
             App Store
           </a>
         </div>
