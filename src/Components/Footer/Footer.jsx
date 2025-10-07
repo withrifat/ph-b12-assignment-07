@@ -7,7 +7,6 @@ const Footer = () => {
   const GITHUB_USERNAME = 'withrifat'; 
 
   useEffect(() => {
-    // GitHub API থেকে তথ্য fetch করো
     const fetchGitHub = async () => {
       try {
         const res = await fetch(`https://api.github.com/users/${GITHUB_USERNAME}`);

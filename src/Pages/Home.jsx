@@ -1,10 +1,15 @@
 import React from 'react';
+import Hero from './Hero/Hero';
 
 const Home = () => {
     return (
-        <div>
-            <h3>this is home</h3>
-        </div>
+        <>
+        {/* hero section  */}
+          <Hero></Hero>
+        {/* Apps Section  */}
+        
+        </>
+
     );
 };
 

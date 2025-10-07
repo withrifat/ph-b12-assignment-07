@@ -43,7 +43,10 @@ const NavBar = () => {
             </ul>
           </div>
           <NavLink to="/">
+          <div className="flex gap-2 items-center">
             <img src="/logo.png" alt="logo" className="h-10 w-10" />
+            <h1 className='text-xl font-bold text-main-g'>WITH.RIFAT</h1>
+          </div>
           </NavLink>
         </div>
 
