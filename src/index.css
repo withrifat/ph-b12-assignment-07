@@ -1,3 +1,16 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+@layer components {
+  .btn-main {
+    @apply text-white font-semibold py-2.5 px-6 rounded-lg transition-all duration-300;
+    background: linear-gradient(to right, #9F62F2, #632EE3);
+  }
+  .btn-main:hover {
+    filter: brightness(1.1);
+    transform: translateY(-1px);
+  }
+  .btn-main:active {
+    filter: brightness(0.95);
+  }
+}
