@@ -4,28 +4,28 @@ const HomeApps = ({ data }) => {
   const { image, title, companyName, downloads, ratingAvg } = data;
 
   return (
-    <div className="bg-white rounded-2xl shadow hover:shadow-lg transition p-3 flex flex-col">
-      <div className="rounded-xl overflow-hidden bg-gray-100 aspect-square">
+    <div className="bg-white rounded-3xl shadow-md hover:shadow-xl transition-shadow duration-300 p-3 sm:p-4 flex flex-col">
+      <div className="relative rounded-2xl overflow-hidden aspect-square mb-2 sm:mb-3 group">
         <img
           src={image}
           alt={title}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-105"
         />
       </div>
 
-      <div className="flex flex-col flex-grow justify-between mt-2">
+      <div className="flex flex-col flex-grow justify-between">
         <div>
-          <h3 className="text-sm font-semibold text-gray-800 line-clamp-1">
+          <h3 className="text-xs sm:text-sm font-semibold text-gray-900 truncate">
             {title}
           </h3>
-          <p className="text-xs text-gray-500 line-clamp-1">{companyName}</p>
+          <p className="text-[10px] sm:text-xs text-gray-500 truncate">{companyName}</p>
         </div>
 
-        <div className="flex items-center justify-between mt-2">
-          <div className="flex items-center text-xs bg-green-50 px-2 py-1 rounded-md">
+        <div className="flex items-center justify-between mt-2 sm:mt-3">
+          <div className="flex items-center text-[10px] sm:text-xs bg-green-50 px-2 py-1 rounded-lg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-3 w-3 text-green-600 mr-1"
+              className="h-3 w-3 sm:h-4 sm:w-4 text-green-600 mr-1"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -40,10 +40,10 @@ const HomeApps = ({ data }) => {
             {downloads}
           </div>
 
-          <div className="flex items-center text-xs bg-orange-50 px-2 py-1 rounded-md">
+          <div className="flex items-center text-[10px] sm:text-xs bg-orange-50 px-2 py-1 rounded-lg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-3 w-3 text-orange-500 mr-1"
+              className="h-3 w-3 sm:h-4 sm:w-4 text-orange-500 mr-1"
               fill="currentColor"
               viewBox="0 0 20 20"
             >

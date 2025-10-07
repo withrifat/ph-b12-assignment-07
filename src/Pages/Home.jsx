@@ -12,7 +12,7 @@ const Home = () => {
       {/* hero section  */}
       <Hero></Hero>
       {/* Apps Section */}
-      <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 my-3">
+      <div className="grid gap-6 grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 my-3">
         {limitedData.map((item) => (
           <HomeApps key={item.id} data={item} />
         ))}

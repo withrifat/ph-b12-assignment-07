@@ -1,7 +1,35 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { FaAppStore, FaGooglePlay } from "react-icons/fa";
+
 
 const Footer = () => {
+const linkStyle = ({ isActive }) =>
+  `relative text-base font-medium transition duration-300 
+  ${isActive ? 'text-main-g underline underline-offset-4' : 'text-gray-700 hover:text-main-g'}
+  after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px]
+  after:bg-purple-500 after:transition-all after:duration-300 hover:after:w-full`;
+
+const menuItems = (
+  <ul className="flex gap-6 list-none">
+    <li>
+      <NavLink to="/" className={linkStyle}>
+        Home
+      </NavLink>
+    </li>
+    <li>
+      <NavLink to="/apps" className={linkStyle}>
+        Apps
+      </NavLink>
+    </li>
+    <li>
+      <NavLink to="/installation" className={linkStyle}>
+        Installation
+      </NavLink>
+    </li>
+  </ul>
+);
+
   const [githubData, setGithubData] = useState(null);
 
   const GITHUB_USERNAME = 'withrifat'; 
@@ -46,15 +74,7 @@ const Footer = () => {
           </div>
         </div>
         <nav className="flex flex-wrap justify-center gap-6">
-          <NavLink to="/" className="link link-hover text-base font-medium">
-            Home
-          </NavLink>
-          <NavLink to="/apps" className="link link-hover text-base font-medium">
-            Apps
-          </NavLink>
-          <NavLink to="/installation" className="link link-hover text-base font-medium">
-            Installation
-          </NavLink>
+          {menuItems}
           <a
             href="https://github.com/withrifat"
             target="_blank"
@@ -77,18 +97,18 @@ const Footer = () => {
             href="https://play.google.com/store/games?hl=en"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700 transition"
+            className="btn-main flex items-center gap-2"
           >
-            <img src="https://www.citypng.com/public/uploads/preview/hd-google-play-playstore-logo-symbol-png-701751694777134cuw3jc7voo.png?v=2025081705" className="w-6 h-6" alt="" />
+            <FaGooglePlay />
             Play Store
           </a>
           <a
             href="https://apps.apple.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 bg-black text-white px-4 py-2 rounded hover:bg-gray-900 transition"
+            className="btn-main flex items-center gap-2"
           >
-            <img  className="w-6 h-6" src="https://p1.hiclipart.com/preview/359/223/826/apple-logo-app-store-iphone-ios-11-ios-7-itunes-store-blue-turquoise-png-clipart.jpg" alt="" />
+            <FaAppStore />
             App Store
           </a>
         </div>

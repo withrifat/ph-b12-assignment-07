@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="mx-auto px-4 mt-10">
       <div className="container mx-auto flex flex-col">
-        <div className="flex-1 space-y-6 mt-10 text-center items-center mb-5">
+        <div className="flex-1 space-y-6 mt-5 text-center items-center mb-5">
           <h1 className="text-5xl lg:text-7xl font-extrabold">
             We Build <br /> <span className="text-main-g">Productive</span> Apps
           </h1>
@@ -14,12 +14,12 @@ const Hero = () => {
               Our goal is to turn your ideas into digital experiences that truly make an impact.
             </p>
           </div>
-          <div className="flex gap-6 mt-4 justify-center">
+          <div className="flex gap-6 mt-4 justify-center mb-4">
             <a
               href="https://play.google.com/store"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:bg-gray-200 px-5 py-4 rounded-lg shadow border-gray-300 border "
+              className="flex items-center gap-2 hover:bg-gray-200 px-5 py-3 rounded-lg shadow border-gray-300 border "
             >
               <img src="/plays.png" alt="Google Play" className="w-6 h-6" />
               <span className="font-semibold">Google Play</span>
@@ -28,7 +28,7 @@ const Hero = () => {
               href="https://www.apple.com/app-store/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:bg-gray-200 px-5 py-4 rounded-lg shadow border-gray-300 border "
+              className="flex items-center gap-2 hover:bg-gray-200 px-5 py-3 rounded-lg shadow border-gray-300 border "
             >
               <img src="/apps.png" alt="App Store" className="w-6 h-6" />
               <span className="font-semibold">App Store</span>
