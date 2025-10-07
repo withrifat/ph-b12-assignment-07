@@ -2,26 +2,29 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
+  const linkStyle = ({ isActive }) =>
+    `text-base font-medium transition ${
+      isActive ? 'underline underline-offset-4 text-main-g' : 'text-gray-700 hover:text-main-g'
+    }`;
   const menuItems = (
     <>
       <li>
-        <NavLink to="/" className="text-base font-medium">
+        <NavLink to="/" className={linkStyle}>
           Home
         </NavLink>
       </li>
       <li>
-        <NavLink to="/apps" className="text-base font-medium">
+        <NavLink to="/apps" className={linkStyle}>
           Apps
         </NavLink>
       </li>
       <li>
-        <NavLink to="/installation" className="text-base font-medium">
+        <NavLink to="/installation" className={linkStyle}>
           Installation
         </NavLink>
       </li>
     </>
   );
-
   return (
     <div className="navbar bg-base-100 shadow-sm sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
