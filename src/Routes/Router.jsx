@@ -13,11 +13,11 @@ const Router = createBrowserRouter([
     path: '/',
     element: <MainLayout />,
     errorElement: <ErrorPage />,
-    hydrateFallbackElement: <Loader/>,
+    hydrateFallbackElement: <Loader />,
     children: [
       {
         index: true,
-        path: "/",
+        path: '/',
         element: <Home />,
         loader: () => fetch('/data.json'),
       },
@@ -28,8 +28,12 @@ const Router = createBrowserRouter([
       },
       {
         path: '/appdetails/:id',
-        loader: () => fetch('/data.json'),
-        element: <AppDetails/>,
+        loader: async ({ params }) => {
+          const res = await fetch('/data.json');
+          const apps = await res.json();
+          return apps.find((app) => app.id === parseInt(params.id));
+        },
+        element: <AppDetails />,
       },
       {
         path: 'installation',
