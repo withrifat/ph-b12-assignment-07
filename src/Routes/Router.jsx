@@ -6,13 +6,14 @@ import Home from '../Pages/Home';
 import Apps from '../Components/Apps/Apps';
 import AppDetails from '../Components/AppsDetails/AppDetails';
 import Installation from '../Components/Installation/Installation';
+import Loader from '../Components/Loader/Loader';
 
 const Router = createBrowserRouter([
   {
     path: '/',
     element: <MainLayout />,
     errorElement: <ErrorPage />,
-    hydrateFallbackElement: <p>Loading...</p>,
+    hydrateFallbackElement: <Loader/>,
     children: [
       {
         index: true,
