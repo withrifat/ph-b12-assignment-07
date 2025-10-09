@@ -7,18 +7,28 @@ import { useEffect, useRef, useState } from 'react';
 const MainLayout = () => {
   const navigation = useNavigation();
   const [showLoader, setShowLoader] = useState(false);
-  const timerRef = useRef(null);
+  const initialTimerRef = useRef(null);
+  const transitionTimerRef = useRef(null);
+
+  // Initial page load: show loader for 1s
+  useEffect(() => {
+    setShowLoader(true);
+    initialTimerRef.current = setTimeout(() => setShowLoader(false), 1000);
+    return () => {
+      if (initialTimerRef.current) clearTimeout(initialTimerRef.current);
+    };
+  }, []);
 
   useEffect(() => {
     const isLoading = navigation.state === 'loading';
     if (isLoading) {
       setShowLoader(true);
+      if (transitionTimerRef.current) clearTimeout(transitionTimerRef.current);
     } else {
-      // ensure loader shows at least 3000ms to avoid flicker
-      timerRef.current = setTimeout(() => setShowLoader(false), 3000);
+      transitionTimerRef.current = setTimeout(() => setShowLoader(false), 1000);
     }
     return () => {
-      if (timerRef.current) clearTimeout(timerRef.current);
+      if (transitionTimerRef.current) clearTimeout(transitionTimerRef.current);
     };
   }, [navigation.state]);
 
