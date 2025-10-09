@@ -2,31 +2,31 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
-const linkStyle = ({ isActive }) =>
-  `relative text-base font-medium transition duration-300 
+  const linkStyle = ({ isActive }) =>
+    `relative text-base font-medium transition duration-300 
   ${isActive ? 'text-main-g underline underline-offset-4' : 'text-gray-700 hover:text-main-g'}
   after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px]
   after:bg-purple-500 after:transition-all after:duration-300 hover:after:w-full`;
 
-const menuItems = (
-  <ul className="flex gap-6 list-none">
-    <li>
-      <NavLink to="/" className={linkStyle}>
-        Home
-      </NavLink>
-    </li>
-    <li>
-      <NavLink to="/apps" className={linkStyle}>
-        Apps
-      </NavLink>
-    </li>
-    <li>
-      <NavLink to="/installation" className={linkStyle}>
-        Installation
-      </NavLink>
-    </li>
-  </ul>
-);
+  const menuItems = (
+    <ul className="flex gap-6 list-none">
+      <li>
+        <NavLink to="/" className={linkStyle}>
+          Home
+        </NavLink>
+      </li>
+      <li>
+        <NavLink to="/apps" className={linkStyle}>
+          Apps
+        </NavLink>
+      </li>
+      <li>
+        <NavLink to="/installed" className={linkStyle}>
+          Installed
+        </NavLink>
+      </li>
+    </ul>
+  );
 
   return (
     <div className="navbar bg-base-100 shadow-sm sticky top-0 z-50">
@@ -49,10 +49,10 @@ const menuItems = (
             </ul>
           </div>
           <NavLink to="/">
-          <div className="flex gap-2 items-center">
-            <img src="/logo.png" alt="logo" className="h-10 w-10" />
-            <h1 className="text-xl font-bold text-main-g hidden sm:block">WITH.RIFAT</h1>
-          </div>
+            <div className="flex gap-2 items-center">
+              <img src="/logo.png" alt="logo" className="h-10 w-10" />
+              <h1 className="text-xl font-bold text-main-g hidden sm:block">WITH.RIFAT</h1>
+            </div>
           </NavLink>
         </div>
 

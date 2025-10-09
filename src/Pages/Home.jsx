@@ -1,11 +1,21 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import Hero from './Hero/Hero';
 import HomeApps from '../Components/HomeApps/HomeApps';
-import { useLoaderData, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { useAppsData } from '../Hooks/AppsDataContext';
+import Loader from '../Components/Loader/Loader';
 
 const Home = () => {
-  const data = useLoaderData();
-  const limitedData = data.slice(0, 8);
+  const { apps, appsLoading } = useAppsData();
+  const limitedData = useMemo(() => (apps || []).slice(0, 8), [apps]);
+
+  if (appsLoading) {
+    return (
+      <div className="flex items-center justify-center min-h-[60vh]">
+        <Loader />
+      </div>
+    );
+  }
 
   return (
     <>

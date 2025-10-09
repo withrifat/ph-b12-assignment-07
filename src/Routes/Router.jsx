@@ -6,6 +6,7 @@ import Home from '../Pages/Home';
 import Apps from '../Components/Apps/Apps';
 import AppDetails from '../Components/AppsDetails/AppDetails';
 import Installation from '../Components/Installation/Installation';
+import InstalledApps from '../Components/InstalledApps/InstalledApps';
 import Loader from '../Components/Loader/Loader';
 
 const Router = createBrowserRouter([
@@ -17,27 +18,23 @@ const Router = createBrowserRouter([
     children: [
       {
         index: true,
-        path: '/',
         element: <Home />,
-        loader: () => fetch('/data.json'),
       },
       {
         path: 'apps',
-        loader: () => fetch('/data.json'),
         element: <Apps />,
       },
       {
-        path: '/appdetails/:id',
-        loader: async ({ params }) => {
-          const res = await fetch('/data.json');
-          const apps = await res.json();
-          return apps.find((app) => app.id === parseInt(params.id));
-        },
+        path: 'appdetails/:id',
         element: <AppDetails />,
       },
       {
         path: 'installation',
         element: <Installation />,
+      },
+      {
+        path: 'installed',
+        element: <InstalledApps />,
       },
     ],
   },

@@ -1,6 +1,6 @@
-import React from "react";
+import React, { memo } from "react";
 
-const HomeApps = ({ data }) => {
+const HomeApps = memo(({ data }) => {
   const { image, title, companyName, downloads, ratingAvg } = data;
 
   return (
@@ -55,6 +55,6 @@ const HomeApps = ({ data }) => {
       </div>
     </div>
   );
-};
+});
 
 export default HomeApps;
