@@ -1,6 +1,6 @@
 # App Store Showcase (React + Vite)
 
-Live: https://ph-b12-assignment-08-eh5ruyl8r-withrifats-projects.vercel.app/apps
+Live: https://ph-b12-assignment-08.vercel.app/
 
 ## Overview
 
